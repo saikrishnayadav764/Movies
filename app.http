@@ -1,0 +1,25 @@
+POST http://localhost:3000/movies
+
+Content-Type: "application/json"
+
+{
+  "directorId": 109,
+  "movieName": "Jurassic Park",
+  "leadActor": "Jeff Go"
+}
+
+###
+
+DELETE http://localhost:3000/movies/48
+
+###
+PUT http://localhost:3000/movies/48
+
+Content-Type: "application/json"
+
+
+{
+    "director_id":102,
+    "movie_name":"Captain America: Civil War",
+    "lead_actor":"Chris Evan"
+}
